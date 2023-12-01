@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TP-FINAL-FRONT-END
 El trabajo consiste en un e-commerce en el que se visualizan distintos productos. Se incluyen las siguientes funcionalidades:
 - Se puede visualizar el detalle de cada uno de los productos
@@ -7,7 +6,7 @@ El trabajo consiste en un e-commerce en el que se visualizan distintos productos
 El programa está compuesto por cuatro screens (HomePage, ContactPage, DetailPage y CartPage) y cuatro componentes (Counter, Footer, ProductCard y ProductCardCart)
 
 
-<!-- Proyecto de E-commerce desarrollado con Mongo, Express, React y Node (MERN STACK)
+Proyecto de E-commerce desarrollado con Mongo, Express, React y Node (MERN STACK)
 
 
 El proyecto cuenta con tanto tan sección y está destinado a ser usado por X o Y usuario
@@ -19,7 +18,4 @@ react-router-dom
 
 BACK:
 cors
-mongoose -->
-=======
-# TP-FINAL-BACK-END
->>>>>>> 3d52160bbc7ba7ec9e906e3d13fdb30345a59347
+mongoose
