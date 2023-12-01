@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TP-FINAL-FRONT-END
 El trabajo consiste en un e-commerce en el que se visualizan distintos productos. Se incluyen las siguientes funcionalidades:
 - Se puede visualizar el detalle de cada uno de los productos
@@ -19,3 +20,6 @@ react-router-dom
 BACK:
 cors
 mongoose -->
+=======
+# TP-FINAL-BACK-END
+>>>>>>> 3d52160bbc7ba7ec9e906e3d13fdb30345a59347
