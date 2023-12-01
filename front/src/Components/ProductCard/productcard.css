@@ -1,0 +1,120 @@
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80vw;
+    box-shadow: 0 0 4px 0 #26334D;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.productCard img{
+    height: 15vh;
+}
+
+.productCard .category{
+    color:#7D8FB3;
+    font-weight: 900;
+    font-size: 10px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productCard .price{
+    color:#6B7A99;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productCard h2{
+    color:#4D5E80;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.linkProductDetail{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(77, 94, 128);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 400px){
+    .productCard{
+        width: 70vw;
+    }
+}
+
+
+@media screen and (min-width: 500px){
+    .productCard{
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .productCard{
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .productCard{
+        width: 35vw;
+    }
+    .productCard .category{
+        font-size: 11px;
+    }
+    .productCard h2{
+        font-size: 16px;
+    }
+    .productCard .price{
+        font-size: 14px;
+    }
+    .linkProductDetail{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .productCard{
+        width: 22vw;
+    }
+    .productCard .category{
+        font-size: 11px;
+    }
+    .productCard h2{
+        font-size: 16px;
+    }
+    .productCard .price{
+        font-size: 14px;
+    }
+    .linkProductDetail{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .productCard .category{
+        font-size: 13px;
+    }
+    .productCard h2{
+        font-size: 18px;
+    }
+    .productCard .price{
+        font-size: 16px;
+    }
+    .linkProductDetail{
+        font-size: 17px;
+    }
+}

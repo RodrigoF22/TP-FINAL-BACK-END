@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f5fa;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 35px;
+  border-bottom: 2px solid #EDEFF2;
+}
+
+.navBar-links{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+.navBar-links-contact{
+  text-decoration: none;
+  color: #6B7A99;
+}
+
+.navBar-links-contact:hover{
+  transform: scale(1.2);
+}
+
+.navBar-links img:hover{
+  transform: scale(1.2);
+}
+
+.navBar .input input{
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 #EDEFF2;
+  border: solid 1px rgb(228, 232, 240);
+  height: 6vh;
+  width: 45vw;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #6B7A99;
+}
+
+.navBar .input input:focus{
+  outline: none;
+}
+
+.navBar .input{
+  position: relative;
+}
+
+.navBar .input img{
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+
+@media screen and (min-width: 500px){
+  .navBar-links{
+      font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .navBar-links-handlens{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .input{
+      display: none;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .navBar-links{
+      font-size: 18px;
+  }
+  .navBar .input input{
+      font-size: 16px;
+      width: 35vw;
+  }
+  .item img{
+      width: 27px;
+  }
+  .navBar .logo{
+      width: 35px;
+  }
+  .navBar .input img{
+      height: 50%;
+  }
+}
+
+
+@media screen and (min-width: 1100px){
+  .navBar-links{
+      font-size: 22px;
+      gap: 22px;
+  }
+  .navBar .input input{
+      font-size: 18px;
+  }
+  .item img{
+      width: 32px;
+  }
+  .navBar .logo{
+      width: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .navBar-links{
+      font-size: 26px;
+      gap: 24px;
+  }
+  .navBar .input input{
+      font-size: 20px;
+  }
+  .item img{
+      width: 36px;
+  }
+  .navBar .logo{
+      width: 44px;
+  }
+}
